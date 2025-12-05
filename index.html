@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Homepage</title>
+
+    <!-- Google Icons -->
+    <link href="https://urldefense.com/v3/__https://fonts.googleapis.com/icon?family=Material*Icons__;Kw!!AoaiBx6H!yZT9O4dE5Ixrv24KlV3QeJ8EUzwe0uf3F7VMJ_7cgd-jVrfwl0DueoiVKyc3Ngw-b3G2AGK2EMJ_0aVVSvPEvVd9Qt_l4w$ " rel="stylesheet">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f5f7fa;
+            color: #333;
+        }
+
+        /* HERO SECTION */
+        .hero {
+            background: linear-gradient(135deg, #4a90e2, #007bff);
+            color: white;
+            padding: 90px 20px;
+            text-align: center;
+        }
+
+        .hero h1 {
+            margin: 0;
+            font-size: 56px;
+            font-weight: 700;
+        }
+
+        .hero p {
+            margin-top: 10px;
+            font-size: 20px;
+        }
+
+        /* MAIN CONTAINER */
+        .container {
+            max-width: 1100px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        h2.section-title {
+            margin-bottom: 20px;
+            font-size: 28px;
+            border-left: 5px solid #007bff;
+            padding-left: 12px;
+        }
+
+        /* CARD STYLE */
+        .card {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+            margin-bottom: 30px;
+        }
+
+        /* PROJECT GRID */
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+        }
+
+        .project-card {
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            transition: 0.3s ease;
+        }
+
+        .project-card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 8px 18px rgba(0, 0, 0, 0.15);
+        }
+
+        .project-card h3 {
+            margin-top: 0;
+        }
+
+        /* CONTACT SECTION */
+        .contact-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 12px;
+        }
+
+        .contact-item .material-icons {
+            font-size: 26px;
+            margin-right: 10px;
+            color: #007bff;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #e6e9ee;
+            margin-top: 40px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- HERO HEADER -->
+    <section class="hero">
+        <h1>Your Name</h1>
+        <p>Developer • Designer • Tech Enthusiast</p>
+    </section>
+
+    <div class="container">
+
+        <!-- ABOUT -->
+        <h2 class="section-title">About Me</h2>
+        <div class="card">
+            <p>
+                Write a short introduction about yourself here. You can describe your experience,
+                your passion, the technologies you use, or your career goals.
+            </p>
+        </div>
+
+        <!-- PROJECTS -->
+        <h2 class="section-title">Projects</h2>
+        <div class="grid">
+            <div class="project-card">
+                <h3>🚀 Project One</h3>
+                <p>Short description of this project goes here.</p>
+            </div>
+
+            <div class="project-card">
+                <h3>💡 Project Two</h3>
+                <p>Short description of this project goes here.</p>
+            </div>
+
+            <div class="project-card">
+                <h3>📱 Project Three</h3>
+                <p>Short description of this project goes here.</p>
+            </div>
+        </div>
+
+        <!-- CONTACT -->
+        <h2 class="section-title">Contact</h2>
+        <div class="card">
+            <div class="contact-item">
+                <span class="material-icons">email</span>
+                <a href="mailto:you@example.com">you@example.com</a>
+            </div>
+
+            <div class="contact-item">
+                <span class="material-icons">person</span>
+                <a href="#" target="_blank">LinkedIn Profile</a>
+            </div>
+
+            <div class="contact-item">
+                <span class="material-icons">code</span>
+                <a href="#" target="_blank">GitHub Profile</a>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        © 2025 Your Name — All rights reserved.
+    </footer>
+
+</body>
+</html>
